@@ -34,7 +34,7 @@ export const MainMenusGradientCard = ({
           "absolute -translate-x-1/2 -translate-y-1/2 transform-gpu rounded-full transition-transform duration-500 group-hover:scale-[3]",
           mouse.elementX === null || mouse.elementY === null
             ? "opacity-0"
-            : "opacity-100",
+            : "opacity-100"
         )}
         style={{
           maskImage: `radial-gradient(${
@@ -53,7 +53,7 @@ export const MainMenusGradientCard = ({
         <div
           className={cn(
             "gird relative h-40 place-content-center overflow-hidden rounded-[15px] border-white bg-white/70 dark:border-neutral-950 dark:bg-black/50",
-            className,
+            className
           )}
         >
           {children}
